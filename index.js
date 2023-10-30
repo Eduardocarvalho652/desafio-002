@@ -1,6 +1,10 @@
 
-let resultado = subtracao(100, 5)
+// Calculadora de partidas Rankeadas
 
+// declarando variavel.
+let resultado = subtracao(10, 5)
+
+//Estrutura de Função.
 function subtracao(numVitorias, numDerrotas){
     let saldoVitorias = (numVitorias - numDerrotas)
     if (saldoVitorias <= 10) {   
@@ -25,6 +29,5 @@ function subtracao(numVitorias, numDerrotas){
     console.log("O Herói tem de saldo " + saldoVitorias + " é está no nível de " + "Imortal")
     }
     else{
-
     }
 }
